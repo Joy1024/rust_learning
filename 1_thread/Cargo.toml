@@ -1,0 +1,13 @@
+[package]
+name = "thread"
+version = "0.0.1"
+edition = "2021"
+# [[bin]]
+# name = "thread"
+
+# 项目的简短描述
+description = "A simple Rust thread test demo"
+
+# 依赖项
+# [dependencies]
+# rand = "0.8.4"  # 引入rand库，版本为0.8.4

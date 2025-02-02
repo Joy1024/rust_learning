@@ -1,0 +1,14 @@
+[package]
+name = "cxx"
+version = "0.0.1"
+edition = "2021"
+
+# 项目的简短描述
+description = "A simple Rust CXX test demo"
+
+# 依赖项
+[dependencies]
+cxx ="1.0.136"
+
+[build-dependencies]
+cxx-build = "1.0.136"
