@@ -1,4 +1,10 @@
-cmake-build-debug
+cmake-build-*
+*.o
+*.a
+*.so
+*.exe
+*.out
 target
 out
 .vscode/*
+*.lock
