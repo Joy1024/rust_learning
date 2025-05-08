@@ -1,5 +1,5 @@
 [package]
-name = "ws"
+name = "ws1"
 version = "0.1.0"
 edition = "2024"
 
@@ -8,4 +8,4 @@ actix-web = { version = "4.10"  }
 actix-rt = { version = "2.10.0" }
 
 [[bin]]
-name = "server1"
+name = "ws1"
