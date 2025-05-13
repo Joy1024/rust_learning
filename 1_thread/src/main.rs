@@ -11,8 +11,11 @@ fn main() {
     });
 
     // 等待新线程完成
-    handle.join().unwrap();
-
+    let jh = handle.join();
+    match jh {
+        Ok(_) => println!("Successed"),
+        Err(e) => println!("Error"),
+    }
     // 使用通道在线程间通信
     let (tx, rx) = mpsc::channel();
     thread::spawn(move || {
